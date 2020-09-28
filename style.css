@@ -1,0 +1,109 @@
+body{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	padding: 0;
+	margin: 0;
+}
+header{
+	width: 100%;
+	height: 5%;
+	margin-bottom: 10px;
+}
+header p{
+	margin: 0;
+}
+
+table{
+	width: 100%;
+	margin: 5px 0px;
+	text-align: center;
+	padding: 0;
+
+}
+th{
+	background-color: #4CAF50;
+	color:white;
+	font-weight: 500;
+	font-size: 18px;
+}
+tr{
+	font-size: 16px;
+}
+tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+td a{
+	color: red;
+	text-decoration: none;
+}
+
+button{
+	background-color: #4CAF50;
+	border:1px solid #4CAF50;
+	border-radius: 0.4em;
+	transition: 1s;
+	color:white;
+}
+button:hover{
+	background-color: transparent;
+	color:#4CAF50;
+}
+
+.background-mat{
+	display: none;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: #fff;
+	opacity: 0.5;
+}
+.update-user{
+	width: 100%;
+	height: 100%;
+	display: none; /*flex*/
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+	position: absolute;
+	z-index: 1;
+}
+.update-user-modal{
+	padding: 10px;
+	position: absolute;
+	border:1px solid #4CAF50;
+	border-radius: 1em;
+	background-color: #fff;
+}
+.update-user-modal__form{
+	text-align: center;
+}
+.update-user-modal__form input{
+	margin: 10px;
+	display: block;
+
+}
+input:focus{
+	outline:1px solid #4CAF50;
+	border:1px solid #4CAF50;
+}
+
+.hide-modal{
+	float:right;
+	padding: 0px 10px;
+	margin: 5px;
+}
+
+.login-modal{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	align-content: center;
+	text-align: center;
+}
+
+.login-modal p{
+	margin: 10px 0px 0px;
+}
